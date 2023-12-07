@@ -1,10 +1,11 @@
 import React from 'react'
 import "./Home.scss"
+import Intro from '../../components/Intro/Intro'
 
 function Home() {
   return (
-    <div>
-      <h1>Karrol</h1>
+    <div className='Home' >
+      <Intro/>
     </div>
   )
 }
