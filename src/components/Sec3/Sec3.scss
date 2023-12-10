@@ -1,0 +1,45 @@
+.Sec3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin: 5%;
+    background-color: #061022;
+    padding: 5rem 0;
+    .partnerInfo{
+        background-color: white;
+        color: #10316b;
+        width: 40%;
+        padding: 1rem;
+        border-radius: 10px;
+        text-align: center;
+        svg{
+            font-size: 5rem;
+            fill: #061022;
+        }
+    }
+    .partnerLogos{
+        background-color: white;
+        // border: 8px dotted #10316b;
+        border-radius: 50%;
+        width: 60%;
+        .slick-slider{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            div{
+                width: 100%;
+                .LazyLoad{
+                    width: 100%;
+                    img{
+                        width: 80%;
+                    }
+                }
+            }
+        }
+        
+    }
+}
