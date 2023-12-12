@@ -1,0 +1,18 @@
+.Intro {
+  width: 100vw;
+}
+.Intro video {
+  width: 100%;
+  position: relative;
+}
+.Intro h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  color: #fff;
+  text-align: center;
+  font-weight: 800;
+  font-style: Italic;
+}/*# sourceMappingURL=Intro.css.map */

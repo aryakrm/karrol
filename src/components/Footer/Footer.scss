@@ -1,0 +1,54 @@
+footer{
+    width: 100%;
+    background-color: #061022;
+    padding: 5rem;
+    position: relative;
+    color: white;
+    .upFooter{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        .footerContact{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            gap: 1rem;
+            img{
+                width: 10rem;
+            }
+        }
+        .footerInfo{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            gap: 1rem;
+        }
+        .footerMenu{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            ul{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 1rem;
+                li{
+                    a{
+                        color: white;
+                    }
+                    a:hover{
+                      color: #f3c623;
+                    }
+                }
+            }
+        }
+    }
+}

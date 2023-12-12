@@ -22,7 +22,12 @@ function Sec3() {
       };
   return (
     <section className='Sec3' >
-      <div className='partnerInfo' >
+      <video autoPlay loop muted >
+        <source src='/assets/mapLive.mp4' type='video/mp4' />
+      </video>
+      <div className='Sec3-wrapper' >
+        <img className='gear' src="/assets/gear.png" alt="gear" />
+<div className='partnerInfo' >
       <RiShakeHandsFill />
         <h3>Karrol Otomotiv SKF, SNR TNT, EYQUEM, CORTECO, INA, LUK, FAG, VALEO, GATE, DAYCO, SKY satıcısıdır.</h3>
         </div>
@@ -80,6 +85,10 @@ function Sec3() {
       </div>
     </Slider>
       </div>
+      <p>KALİTEYİ, EN UYGUN FİYAT İLE EN KISA ZAMANDA HİZMETİNİZE SUNMAK VE MEMNUNİYETİNİZ İÇİN VARIZ...</p>
+
+      </div>
+      
     </section>
   )
 }

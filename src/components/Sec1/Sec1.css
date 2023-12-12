@@ -1,0 +1,21 @@
+.Sec1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 30rem;
+  gap: 2rem;
+  margin: -7rem 2rem 1rem 2rem;
+}
+.Sec1 div {
+  background-color: #061022;
+  width: 20%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.Sec1 div img {
+  width: 80%;
+}/*# sourceMappingURL=Sec1.css.map */

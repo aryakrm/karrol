@@ -1,0 +1,18 @@
+.Sec3 {
+  width: 100%;
+  gap: 4rem;
+  margin: 5%;
+  margin-bottom: 0;
+  padding: 5rem 0;
+}
+.Sec3 video {
+  opacity: 0.5;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+.Sec3 .Sec3-wrapper {
+  position: absolute;
+  z-index: 2;
+  top: 2rem;
+}/*# sourceMappingURL=Sec3.css.map */

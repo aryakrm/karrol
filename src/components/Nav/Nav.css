@@ -1,0 +1,28 @@
+nav {
+  width: 100vw;
+  padding: 1.5rem 3rem 1.5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #061022;
+}
+nav img {
+  width: 9rem;
+}
+nav .navMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav .navMenu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+nav .navMenu a {
+  color: white;
+}
+nav .navMenu a:hover {
+  color: #f3c623;
+}/*# sourceMappingURL=Nav.css.map */
