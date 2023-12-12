@@ -17,14 +17,14 @@ function Sec3() {
         infinite: true,
         autoplay: true,
         autoplaySpeed: 1500,
-        slidesToShow: 3,
+        slidesToShow: 6,
         slidesToScroll: 1,
       };
   return (
     <section className='Sec3' >
-      <video autoPlay loop muted >
+      {/* <video autoPlay loop muted >
         <source src='/assets/mapLive.mp4' type='video/mp4' />
-      </video>
+      </video> */}
       <div className='Sec3-wrapper' >
         <img className='gear' src="/assets/gear.png" alt="gear" />
 <div className='partnerInfo' >

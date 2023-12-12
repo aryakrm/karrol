@@ -2,24 +2,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 90%;
-    height: 30rem;
+    flex-wrap: wrap;
+    width: 100%;
     gap: 2rem;
-    margin: -7rem 2rem 1rem 2rem;
+    background-color: rgb(9, 26, 54);
+    padding: 1rem;
     div{
-        background-color: #061022;
-        width: 20%;
-        height: 80%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 50%;
-        // box-shadow: 7px 4px 4px grey;
-        -webkit-box-shadow: inset 0px 23px 86px -19px rgba(243,198,35,1);
--moz-box-shadow: inset 0px 23px 86px -19px rgba(243,198,35,1);
-box-shadow: inset 0px 23px 86px -19px rgba(243,198,35,1);
         img{
-            width: 80%;
+            width: 10rem;
         }
     }
 }

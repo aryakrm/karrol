@@ -1,0 +1,32 @@
+.Contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #061022;
+    padding: 2rem;
+    img{
+        width: 50%;
+        border-radius: 2rem;
+    }
+    .contactInfo{
+        margin-top: 7rem;
+        background-color: #061022;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        color: white;
+        gap: 1rem;
+        text-align: center;
+        line-height: 2rem;
+        .contactText{
+            margin-top: 2rem;
+        }
+        .location{
+            width: 100%;
+            border-radius: 2rem;
+        }
+    }
+}
