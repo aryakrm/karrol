@@ -1,9 +1,12 @@
 footer{
     width: 100%;
     background-color: #061022;
-    padding: 5rem;
+    padding: 1rem;
     position: relative;
     color: white;
+    -webkit-box-shadow: 2px -5px 52px -35px rgba(255,238,0,1);
+-moz-box-shadow: 2px -5px 52px -35px rgba(255,238,0,1);
+box-shadow: 2px -5px 52px -35px rgba(255,238,0,1);
     .upFooter{
         display: flex;
         justify-content: space-around;
@@ -49,6 +52,16 @@ footer{
                     }
                 }
             }
+        }
+    }
+    .downFooter{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 1rem;
+        padding: 1rem;
+        p{
+            font-size: 12px;
         }
     }
 }

@@ -37,7 +37,10 @@ function Footer() {
       
 
       </div>
-      <div className='downFooter' ></div>
+      <div className='downFooter' >
+        <p>Karrol Otomotiv © 2023 - Tüm Hakları Saklıdır.</p>
+        <p>Developed by Arya Karimi</p>
+      </div>
       
     </footer>
   )
