@@ -5,16 +5,28 @@ nav {
   align-items: center;
   justify-content: space-between;
   background-color: #061022;
+  z-index: 5;
+  position: fixed;
+  top: 0;
+  box-shadow: 2px 21px 52px -35px rgb(255, 238, 0);
 }
 nav img {
   width: 9rem;
+}
+nav .hamburger {
+  display: none;
+  cursor: pointer;
+  color: #f3c623;
+}
+nav .hamburger svg {
+  font-size: 1.5rem;
 }
 nav .navMenu {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-nav .navMenu ul {
+nav .navMenu .menu {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,7 +34,84 @@ nav .navMenu ul {
 }
 nav .navMenu a {
   color: white;
+  text-decoration: none;
 }
 nav .navMenu a:hover {
   color: #f3c623;
+}
+nav .side-menu {
+  background-color: #061022;
+  position: absolute;
+  top: 5rem;
+  right: 0;
+  padding: 2rem;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid rgb(0, 0, 0);
+}
+nav .side-menu .side-projects {
+  font-family: altera;
+  font-weight: 700;
+}
+nav .side-menu ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  list-style: none;
+  gap: 0.5rem;
+}
+nav .side-menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
+}
+nav .side-menu ul li:hover {
+  color: #f3c623;
+  cursor: pointer;
+}
+nav .side-menu .side-menu-list li h2:hover {
+  opacity: 0.5;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+nav .side-menu .side-menu-list li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
+}
+nav .side-menu .side-menu-list li:hover {
+  color: #f3c623;
+  cursor: pointer;
+}
+nav .side-menu .side-menu-list li p:hover {
+  opacity: 0.5;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+nav .dropDownMenu {
+  position: absolute;
+  z-index: 10;
+  right: 15%;
+  top: 65%;
+  color: white;
+  background-color: #061022;
+  padding: 1rem;
+  text-align: center;
+}
+nav .dropDownMenu li {
+  margin: 1rem;
+}
+nav .dropDownMenu li a {
+  color: white;
+  text-decoration: none;
+}
+nav .dropDownMenu li a:hover {
+  color: #f3c623;
+}
+
+@media only screen and (max-width: 920px) {
+  nav .hamburger {
+    display: block;
+  }
+  nav .navMenu {
+    display: none;
+  }
 }/*# sourceMappingURL=Nav.css.map */

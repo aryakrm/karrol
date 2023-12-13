@@ -9,11 +9,19 @@ nav{
     position: fixed;
     top: 0;
     -webkit-box-shadow: 2px 21px 52px -35px rgba(255,238,0,1);
--moz-box-shadow: 2px 21px 52px -35px rgba(255,238,0,1);
-box-shadow: 2px 21px 52px -35px rgba(255,238,0,1);
+    -moz-box-shadow: 2px 21px 52px -35px rgba(255,238,0,1);
+    box-shadow: 2px 21px 52px -35px rgba(255,238,0,1);
     img{
         width: 9rem;
     }
+    .hamburger {
+        display: none;
+        cursor: pointer;
+        color: #f3c623;
+        svg {
+          font-size: 1.5rem;
+        }
+      }
     .navMenu{
         display: flex;
         justify-content: center;
@@ -32,6 +40,63 @@ box-shadow: 2px 21px 52px -35px rgba(255,238,0,1);
           color: #f3c623;
         }
     }
+    .side-menu {
+        background-color: #061022;
+        position: absolute;
+        top: 5rem;
+        right: 0;
+        padding: 2rem;
+        border-radius: 5px 0 0 5px;
+        border: 1px solid rgb(0, 0, 0);
+        .side-projects {
+          font-family: altera;
+          font-weight: 700;
+        }
+        ul {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: center;
+          list-style: none;
+          gap: 0.5rem;
+          li {
+            a {
+              text-decoration: none;
+              color: white;
+              font-weight: 800;
+            }
+            &:hover{
+                color: #f3c623;
+                cursor: pointer;
+            }
+          }
+        }
+        .side-menu-list {
+          li {
+            h2 {
+              &:hover {
+                opacity: 0.5;
+                border-bottom: 1px solid rgba($color: #000000, $alpha: 0.5);
+              }
+            }
+            a {
+                text-decoration: none;
+                color: white;
+                font-weight: 800;
+                &:hover{
+                  color: #f3c623;
+                  cursor: pointer;
+              }
+              }
+              
+            p {
+              &:hover {
+                opacity: 0.5;
+                border-bottom: 1px solid rgba($color: #000000, $alpha: 0.5);
+              }
+            }
+          }
+        }}
     .dropDownMenu{
         position: absolute;
         z-index: 10;
@@ -49,6 +114,24 @@ box-shadow: 2px 21px 52px -35px rgba(255,238,0,1);
             }
             a:hover{
               color: #f3c623;
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 920px){
+    nav{
+        img{
+           
+        }
+        .hamburger {
+            display: block;
+          }
+        .navMenu{
+            display: none;
+            .menu{
+               
             }
         }
     }

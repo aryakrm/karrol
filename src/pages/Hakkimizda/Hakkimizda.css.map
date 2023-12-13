@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"Hakkimizda.css"}
+{"version":3,"sources":["Hakkimizda.scss","Hakkimizda.css"],"names":[],"mappings":"AAAA;EACI,WAAA;EACA,gBAAA;EACA,aAAA;EACA,2BAAA;EACA,uBAAA;EACA,eAAA;ACCJ;ADAI;EACI,UAAA;EACA,YAAA;ACER;ADCI;EAMI,UAAA;EACA,YAAA;EACA,aAAA;EACA,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,kBAAA;EACA,SAAA;EACA,gCAAA;EACA,YAAA;ACJR;ADXQ;EACI,gBAAA;EACA,UAAA;EACA,aAAA;ACaZ;ADAQ;EACI,gBAAA;EACA,mBAAA;EACA,mBAAA;ACEZ","file":"Hakkimizda.css"}

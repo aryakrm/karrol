@@ -3,4 +3,15 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    .progress-bar {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 5px;
+        z-index: 50;
+        background: #f3c623;
+        transform-origin: 0%;
+      }
 }

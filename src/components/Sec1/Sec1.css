@@ -2,20 +2,62 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 90%;
-  height: 30rem;
+  flex-wrap: wrap;
+  width: 100%;
   gap: 2rem;
-  margin: -7rem 2rem 1rem 2rem;
+  padding: 1rem;
 }
-.Sec1 div {
-  background-color: #061022;
-  width: 20%;
-  height: 80%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
+.Sec1 div:nth-child(1) {
+  animation-name: floatIt;
+  animation-iteration-count: infinite;
+  animation-duration: 4000ms;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+.Sec1 div:nth-child(2) {
+  animation-name: floatIt2;
+  animation-iteration-count: infinite;
+  animation-duration: 4000ms;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+.Sec1 div:nth-child(3) {
+  animation-name: floatIt;
+  animation-iteration-count: infinite;
+  animation-duration: 4000ms;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+.Sec1 div:nth-child(4) {
+  animation-name: floatIt2;
+  animation-iteration-count: infinite;
+  animation-duration: 4000ms;
+  animation-timing-function: linear;
+  animation-direction: alternate;
 }
 .Sec1 div img {
-  width: 80%;
+  width: 10rem;
+}
+
+@keyframes floatIt {
+  0% {
+    translate: 0 0;
+  }
+  50% {
+    translate: 5% 5%;
+  }
+  100% {
+    translate: 0 0;
+  }
+}
+@keyframes floatIt2 {
+  0% {
+    translate: 0 0;
+  }
+  50% {
+    translate: -8% -8%;
+  }
+  100% {
+    translate: 0 0;
+  }
 }/*# sourceMappingURL=Sec1.css.map */

@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"Iletisim.css"}
+{"version":3,"sources":["Iletisim.scss","Iletisim.css"],"names":[],"mappings":"AAAA;EACI,aAAA;EACA,mBAAA;EACA,uBAAA;EACA,yBAAA;EACA,aAAA;ACCJ;ADAI;EACI,UAAA;EACA,mBAAA;ACER;ADAI;EACI,gBAAA;EACA,yBAAA;EACA,UAAA;EACA,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,uBAAA;EACA,aAAA;EACA,YAAA;EACA,SAAA;EACA,kBAAA;EACA,iBAAA;ACER;ADDQ;EACI,gBAAA;ACGZ;ADDQ;EACI,WAAA;EACA,mBAAA;ACGZ","file":"Iletisim.css"}

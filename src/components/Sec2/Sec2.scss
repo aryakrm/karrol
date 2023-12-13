@@ -13,8 +13,13 @@
         margin-left: 5%;
         // box-shadow: 7px 4px 4px grey;
         -webkit-box-shadow: -2px -2px 35px 11px rgba(0,0,0,0.6);
--moz-box-shadow: -2px -2px 35px 11px rgba(0,0,0,0.6);
-box-shadow: -2px -2px 35px 11px rgba(0,0,0,0.6);
+        -moz-box-shadow: -2px -2px 35px 11px rgba(0,0,0,0.6);
+        box-shadow: -2px -2px 35px 11px rgba(0,0,0,0.6);
+        animation-name: floatIt1;
+        animation-iteration-count: infinite;
+        animation-duration: 4000ms;
+        animation-timing-function: linear;
+        animation-direction: alternate;
         ul{
             display: flex;
             flex-direction: column;
@@ -33,6 +38,7 @@ box-shadow: -2px -2px 35px 11px rgba(0,0,0,0.6);
                 }
             }
         }
+        
     }
     .sec2Right{
         background-color: #10316b;
@@ -55,8 +61,41 @@ box-shadow: -2px -2px 35px 11px rgba(0,0,0,0.6);
         img{
             width: 7rem;
         }
+        animation-name: floatIt2;
+        animation-iteration-count: infinite;
+        animation-duration: 9000ms;
+        animation-timing-function: linear;
+        animation-direction: alternate;
     }
     
+}
+
+@keyframes floatIt {
+    0% {
+        translate: 0 0;
+    }
+
+    50% {
+        translate: 5% 5%;
+    }
+
+    100% {
+        translate: 0 0;
+    }
+}
+
+@keyframes floatIt2 {
+    0% {
+        translate: 0 0;
+    }
+
+    50% {
+        translate: -8% -8%;
+    }
+
+    100% {
+        translate: 0 0;
+    }
 }
 
 

@@ -1,1 +1,63 @@
-/*# sourceMappingURL=Footer.css.map */
+footer {
+  width: 100%;
+  background-color: #061022;
+  padding: 1rem;
+  position: relative;
+  color: white;
+  box-shadow: 2px -5px 52px -35px rgb(255, 238, 0);
+}
+footer .upFooter {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+footer .upFooter .footerContact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+}
+footer .upFooter .footerContact img {
+  width: 10rem;
+}
+footer .upFooter .footerInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+}
+footer .upFooter .footerMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+footer .upFooter .footerMenu ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+footer .upFooter .footerMenu ul li a {
+  color: white;
+}
+footer .upFooter .footerMenu ul li a:hover {
+  color: #f3c623;
+}
+footer .downFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+footer .downFooter p {
+  font-size: 12px;
+}/*# sourceMappingURL=Footer.css.map */

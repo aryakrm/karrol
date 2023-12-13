@@ -1,1 +1,35 @@
-/*# sourceMappingURL=Hakkimizda.css.map */
+.Hakkimizda {
+  width: 100%;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.Hakkimizda img {
+  width: 60%;
+  height: 90vh;
+}
+.Hakkimizda .aboutText {
+  width: 40%;
+  height: 90vh;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+  background-color: rgb(6, 16, 34);
+  color: white;
+}
+.Hakkimizda .aboutText .karrolLogo {
+  margin-top: 2rem;
+  width: 40%;
+  height: unset;
+}
+.Hakkimizda .aboutText p {
+  font-weight: 600;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+}/*# sourceMappingURL=Hakkimizda.css.map */

@@ -3,6 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 1rem;
 }
 .Sec2 .sec2Left {
   background-color: #f3c623;
@@ -11,6 +12,7 @@
   padding: 2rem;
   border-radius: 2rem;
   margin-left: 5%;
+  box-shadow: -2px -2px 35px 11px rgba(0, 0, 0, 0.6);
 }
 .Sec2 .sec2Left ul {
   display: flex;
@@ -34,9 +36,10 @@
   background-color: #10316b;
   color: white;
   width: 50%;
-  margin-left: -20%;
+  margin-left: -10%;
   padding: 4rem;
   border-radius: 1rem;
+  box-shadow: -2px -2px 35px 11px rgba(0, 0, 0, 0.6);
 }
 .Sec2 .sec2Right h1 {
   font-weight: 800;
@@ -47,4 +50,11 @@
 }
 .Sec2 .sec2Right img {
   width: 7rem;
+}
+
+@media only screen and (max-width: 920px) {
+  .Sec2 {
+    display: flex;
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=Sec2.css.map */
