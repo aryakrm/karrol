@@ -5,11 +5,65 @@
     flex-wrap: wrap;
     width: 100%;
     gap: 2rem;
-    background-color: rgb(9, 26, 54);
     padding: 1rem;
     div{
+        &:nth-child(1){
+            animation-name: floatIt;
+        animation-iteration-count: infinite;
+        animation-duration: 4000ms;
+        animation-timing-function: linear;
+        animation-direction: alternate;
+        }
+        &:nth-child(2){
+            animation-name: floatIt2;
+        animation-iteration-count: infinite;
+        animation-duration: 4000ms;
+        animation-timing-function: linear;
+        animation-direction: alternate;
+        }
+        &:nth-child(3){
+            animation-name: floatIt;
+        animation-iteration-count: infinite;
+        animation-duration: 4000ms;
+        animation-timing-function: linear;
+        animation-direction: alternate;
+        }
+        &:nth-child(4){
+            animation-name: floatIt2;
+        animation-iteration-count: infinite;
+        animation-duration: 4000ms;
+        animation-timing-function: linear;
+        animation-direction: alternate;
+        }
         img{
             width: 10rem;
         }
+    }
+}
+
+@keyframes floatIt {
+    0% {
+        translate: 0 0;
+    }
+
+    50% {
+        translate: 5% 5%;
+    }
+
+    100% {
+        translate: 0 0;
+    }
+}
+@keyframes floatIt2 {
+    0% {
+        translate: 0 0;
+    }
+
+    50% {
+        translate: -8% -8%;
+    }
+
+    100% {
+        translate: 0 0;
     }
 }
