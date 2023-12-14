@@ -31,6 +31,18 @@ nav{
         justify-content: center;
         align-items: center;
         gap: 1rem;
+        .flags{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 0.5rem;
+          span{
+            &:hover{
+              cursor: pointer;
+              opacity: 0.6;
+            }
+          }
+        }
         }
         a{
             color: white;
@@ -96,11 +108,23 @@ nav{
               }
             }
           }
+          .flags{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0.5rem;
+            span{
+              &:hover{
+                cursor: pointer;
+                opacity: 0.6;
+              }
+            }
+          }
         }}
     .dropDownMenu{
         position: absolute;
         z-index: 10;
-        right: 15%;
+        right: 25%;
         top: 65%;
         color: white;
         background-color: #061022;

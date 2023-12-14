@@ -1,22 +1,24 @@
 import React from 'react'
 import "./Tedarikciler.scss"
+import {motion} from "framer-motion"
+// import { t } from "i18next";
+import { useTranslation } from "react-i18next";
 
 function Tedarikciler() {
+
+  const { t } = useTranslation();
+
   return (
     <section className='AnaMarkalar' >
-       <img src="/assets/anaMarkalar.jpg" alt="Karrol" />
-      <div className='anaText' >
-        <h1>TEDARİKÇİLER - ANA MARKALAR</h1>
-      <p>Karrol Otomotiv, PEUGEOT, RENAULT, CİTROEN ve OPEL markalarına ait OEM parçaların tedarikini 10 yılı aşkın bir süredir başarıyla gerçekleştirmektedir.
-
-Siparişlerinizi, özel planlar ve programlar aracılığıyla Karrol Otomotiv'e ileterek üreticilerle koordinasyon sağlamaktayız. Bu şekilde, Karrol Otomotiv'deki stoklar her zaman güncel ve tamamlanmış durumdadır.
-
-Ayrıca, müşterilerimiz için en kısa sürede OEM parçalarını temin etmek amacıyla, Karrol Otomotiv'in özel programları aktif bir şekilde kullanılmaktadır.
-
-Uzun yıllara dayanan tecrübemiz sayesinde, en yüksek kalite standardında ürünleri en uygun fiyatlarla temin etme konusunda başarılı bir geçmişe sahibiz.
-
-Karrol Otomotiv, OEM parçaların güvenilir bir şekilde temin edildiği öncü bir adres olarak bilinir.</p>
-</div>
+       <motion.img initial={{ opacity: 0, scale: 0.5 }}
+    animate={{ opacity: 1, scale: 1 }}
+    transition={{ duration: 0.5 }} src="/assets/anaMarkalar.jpg" alt="Karrol" />
+      <motion.div initial={{ opacity: 0, scale: 0.5 }}
+    animate={{ opacity: 1, scale: 1 }}
+    transition={{ duration: 0.5 }} className='anaText' >
+        <h1>{t("anamarkalar_title")}</h1>
+      <p>{t("anamarkalar_text")}</p>
+</motion.div>
     </section>
   )
 }

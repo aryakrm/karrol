@@ -1,18 +1,24 @@
 import React from 'react'
 import "./AfterMarketler.scss"
+import {motion} from "framer-motion"
+// import { t } from "i18next";
+import { useTranslation } from "react-i18next";
 
 function AfterMarketler() {
+
+  const { t } = useTranslation();
+
   return (
     <section className='AfterMarketler' >
-       <img src="/assets/afterMarketler.jpg" alt="Karrol" />
-      <div className='afterText' >
-        <h1>TEDARİKÇİLER - AFTER MARKETLER</h1>
-      <p>Karrol Otomotiv'in bir diğer faaliyet alanı, tanınmış ve kalite konusunda kendini ispatlamış markaların after market parçalarını tedarik etmektir.
-
-Karrol Otomotiv, after market üreticileri ile kalite ve güvene dayalı sağlam firma ilişkilerine sahiptir. Bu üreticiler aynı zamanda birçok otomobil üreticisi tarafından tercih edilmiş ve dünya çapında tanınmıştır. Renault, Peugeot, Opel, Citroen gibi sektörün öncü markalarının OEM parçalarını üreten bu firmalar aracılığıyla, otomobilinize en uygun orijinal parçayı tedarik etmekteyiz.
-
-Gerek marka seçimlerimiz gerekse satış prensiplerimizle, size en uygun ve en kaliteli ürünleri en kısa sürede ulaştırmayı taahhüt ediyoruz.</p>
-</div>
+       <motion.img initial={{ opacity: 0, scale: 0.5 }}
+    animate={{ opacity: 1, scale: 1 }}
+    transition={{ duration: 0.5 }} src="/assets/afterMarketler.jpg" alt="Karrol" />
+      <motion.div initial={{ opacity: 0, scale: 0.5 }}
+    animate={{ opacity: 1, scale: 1 }}
+    transition={{ duration: 0.5 }} className='afterText' >
+        <h1>{t("aftermarketler_title")}</h1>
+      <p>{t("aftermarketler_text")}</p>
+</motion.div>
     </section>
   )
 }

@@ -67,3 +67,14 @@
         translate: 0 0;
     }
 }
+
+@media only screen and (max-width: 920px){
+    .Sec1{
+        div{
+            margin-top: 1rem;
+            img{
+                width: 5rem;
+            }
+        }
+    }
+}
