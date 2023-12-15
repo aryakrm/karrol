@@ -36,9 +36,9 @@ function Footer() {
       
       <div className='footerInfo' >
         <h3>{t("calisma")}</h3>
-        <p>Pazartesi - Cuma <br /> 08.30 - 19.00 <br />
-            Cumartesi <br /> 08.30 - 19.00 <br />
-          Pazar Tatil Günü</p>
+        <p>Pazartesi - Cuma <br /> 09:00 - 18.00 <br />
+            Cumartesi <br /> 09:00 - 18.00 <br />
+           Pazar Günü Tatil </p>
       </div>
       
 
