@@ -14,7 +14,10 @@ function Intro() {
       <video autoPlay loop muted >
         <source src='/assets/introVideo.mp4' type='video/mp4' />
       </video>
+      <div className='intro_text'>
+      <h1>{t("intro_name")}</h1>
       <h1>{t("intro_title")}</h1>
+      </div>
            <div class="mouse"></div>
     </motion.div>
   )
