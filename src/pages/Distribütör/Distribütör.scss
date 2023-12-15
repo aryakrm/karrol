@@ -2,27 +2,29 @@
     width: 100%;
     margin-top: 4rem;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(6, 16, 34);
+        color: white;
+        padding: 3rem;
+        gap: 1rem;
     img{
-        width: 60%;
-        height: 90vh;
+        width: 30%;
+        border-radius: 10px;
+        opacity: 0.5;
     }
     .distText{
-        width: 40%;
-        height: 90vh;
-        padding: 1rem;
+        width: 60%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
         gap: 1rem;
-        background-color: rgb(6, 16, 34);
-        color: white;
+        
         p{
-            font-size: 0.7rem;
+            font-size: 14px;
             font-weight: 600;
             line-height: 1.5rem;
             margin-bottom: 1rem;

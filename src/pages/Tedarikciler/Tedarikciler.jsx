@@ -11,7 +11,7 @@ function Tedarikciler() {
   return (
     <section className='AnaMarkalar' >
        <motion.img initial={{ opacity: 0, scale: 0.5 }}
-    animate={{ opacity: 1, scale: 1 }}
+    animate={{ opacity: 0.5, scale: 1 }}
     transition={{ duration: 0.5 }} src="/assets/anaMarkalar.jpg" alt="Karrol" />
       <motion.div initial={{ opacity: 0, scale: 0.5 }}
     animate={{ opacity: 1, scale: 1 }}

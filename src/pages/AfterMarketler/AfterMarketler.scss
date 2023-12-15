@@ -2,25 +2,33 @@
     width: 100%;
     margin-top: 4rem;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    img{
-        width: 60%;
-        height: 90vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(6, 16, 34);
+        color: white;
+        padding: 3rem;
+        gap: 1rem;
+    .partnersLogos{
+        border-radius: 10px;
+        opacity: 0.5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        img{
+            width: 10%;
+        }
     }
     .afterText{
-        width: 40%;
-        height: 90vh;
-        padding: 1rem;
+        width: 60%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
         gap: 1rem;
-        background-color: rgb(6, 16, 34);
-        color: white;
+        
         p{
             font-size: 14px;
             font-weight: 600;
@@ -28,8 +36,6 @@
             margin-bottom: 1rem;
         }
     }
-
-    
 }
 
 
@@ -41,35 +47,37 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        flex-wrap: wrap;
-        img{
-            width: 100%;
-            height: 60vh;
-        }
-    
-        .afterText{
-            .karrolLogo{
-                margin-top: 2rem;
-                width: 40%;
-                height: unset;
+        background-color: rgb(6, 16, 34);
+            color: white;
+            padding: 3rem;
+            gap: 1rem;
+        .partnersLogos{
+            border-radius: 10px;
+            opacity: 0.5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            img{
+                width: 20%;
             }
-            width: 100%;
-            padding: 1rem;
+        }
+        .afterText{
+            width: 90%;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             text-align: center;
-            gap: 2rem;
-            background-color: rgb(6, 16, 34);
-            color: white;
+            gap: 1rem;
+            
             p{
+                font-size: 14px;
                 font-weight: 600;
                 line-height: 1.5rem;
                 margin-bottom: 1rem;
             }
         }
-    
-        
     }
+    
 }

@@ -10,9 +10,20 @@ function AfterMarketler() {
 
   return (
     <section className='AfterMarketler' >
-       <motion.img initial={{ opacity: 0, scale: 0.5 }}
-    animate={{ opacity: 1, scale: 1 }}
-    transition={{ duration: 0.5 }} src="/assets/afterMarketler.jpg" alt="Karrol" />
+       <div className='partnersLogos'>
+        <img src="/assets/partners/01.png" alt="partners" />
+        <img src="/assets/partners/02.png" alt="partners" />
+        <img src="/assets/partners/03.png" alt="partners" />
+        <img src="/assets/partners/04.png" alt="partners" />
+        <img src="/assets/partners/05.png" alt="partners" />
+       </div>
+       <div className='partnersLogos'>
+        <img src="/assets/partners/06.png" alt="partners" />
+        <img src="/assets/partners/07.png" alt="partners" />
+        <img src="/assets/partners/08.png" alt="partners" />
+        <img src="/assets/partners/09.png" alt="partners" />
+        <img src="/assets/partners/010.png" alt="partners" />
+       </div>
       <motion.div initial={{ opacity: 0, scale: 0.5 }}
     animate={{ opacity: 1, scale: 1 }}
     transition={{ duration: 0.5 }} className='afterText' >
