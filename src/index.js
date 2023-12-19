@@ -8,6 +8,7 @@ import Loading from "./pages/Loading/Loading.jsx";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
     <BrowserRouter>
