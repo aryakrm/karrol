@@ -124,12 +124,13 @@ nav{
     .dropDownMenu{
         position: absolute;
         z-index: 10;
-        right: 22%;
+        right: 25%;
         top: 60%;
         color: white;
         background-color: #061022;
-        padding: 1rem;
+        padding: 1rem 3rem;
         text-align: center;
+        border-radius: 20px;
         li{
             margin: 1rem;
             a{

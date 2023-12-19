@@ -6,7 +6,6 @@ import Sec2 from '../../components/Sec2/Sec2'
 import Sec3 from '../../components/Sec3/Sec3'
 import gsap from 'gsap'
 import {ScrollTrigger} from 'gsap/ScrollTrigger'
-
 gsap.registerPlugin(ScrollTrigger)
 
 
