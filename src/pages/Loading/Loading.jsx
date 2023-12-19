@@ -1,5 +1,5 @@
 import "./Loading.scss";
-import ReactLoading from "react-loading";
+
 
 function Loading() {
 
