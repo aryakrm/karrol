@@ -7,13 +7,14 @@ import App from './App';
 import Loading from "./pages/Loading/Loading.jsx";
 
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
     <BrowserRouter>
     <Suspense fallback={<Loading />}>
-        <App />
+        <App/>
       </Suspense>
     </BrowserRouter>
     
