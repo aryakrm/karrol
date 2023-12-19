@@ -4,13 +4,13 @@ import ReactLoading from "react-loading";
 
 function Loading() {
 
-    const [show, setShow] = useState(false)
-  useEffect(() => {
-    let timeout = setTimeout(() => setShow(true), 5000)
-    return () => {
-      clearTimeout(timeout)
-    }
-  }, [])
+    const [show, setShow] = useState(true)
+
+    useEffect(() => {
+        setTimeout(() => {
+          setShow(false);
+        }, 5000);
+      }, []);
 
   return (
     <div className="Loading">
