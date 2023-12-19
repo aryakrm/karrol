@@ -3,6 +3,7 @@ import "./Loading.scss";
 import ReactLoading from "react-loading";
 
 function Loading() {
+    
   return (
     <div className="Loading">
       <ReactLoading
