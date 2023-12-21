@@ -12,7 +12,7 @@ function Hakkimizda() {
     <section className='Hakkimizda'>
       <motion.img initial={{ opacity: 0, scale: 0.5 }}
     animate={{ opacity: 1, scale: 1 }}
-    transition={{ duration: 0.5 }} src="/assets/karrolAbout.jpg" alt="Karrol" />
+    transition={{ duration: 0.5 }} src="/assets/karrolAbout.png" alt="Karrol" />
       <motion.div initial={{ opacity: 0, scale: 1.5 }}
     animate={{ opacity: 1, scale: 1 }}
     transition={{ duration: 0.5 }} className='aboutText' >
