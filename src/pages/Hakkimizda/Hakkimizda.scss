@@ -7,9 +7,10 @@
         margin-top: 2rem;
         display: relative;
     }
+    
     .aboutText{
         position: absolute;
-        margin-top: -50%;
+        margin-top: -55%;
         width: 50%;
         padding-left: 5rem;
         color: white;
@@ -18,6 +19,13 @@
         justify-content: center;
         align-items: flex-start;
         gap: 1rem;
+        h1{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 20%;
+        }
         .karrolLogo{
             width: 20%;
         }
@@ -36,13 +44,14 @@
         }
         .aboutText{
             position: absolute;
-            margin-top: -55%;
+            margin-top: -50%;
             width: 50%;
             padding-left: 1rem;
             gap: 0.5rem;
             font-size: smaller;
             h1{
                 font-size: 12px;
+                margin-left: 10%;
             }
             p{
                font-size: 8px; 

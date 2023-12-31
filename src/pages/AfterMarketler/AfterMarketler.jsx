@@ -11,18 +11,19 @@ function AfterMarketler() {
   return (
     <section className='AfterMarketler' >
        <div className='partnersLogos'>
-        <img src="/assets/partners/01.png" alt="partners" />
-        <img src="/assets/partners/02.png" alt="partners" />
-        <img src="/assets/partners/03.png" alt="partners" />
-        <img src="/assets/partners/04.png" alt="partners" />
-        <img src="/assets/partners/05.png" alt="partners" />
+        <img src="/assets/partners/partners/01.gif" alt="partners" />
+        <img src="/assets/partners/partners/02.png" alt="partners" />
+        <img src="/assets/partners/partners/03.png" alt="partners" />
+        <img src="/assets/partners/partners/04.png" alt="partners" />
+        <img src="/assets/partners/partners/05.png" alt="partners" />
        </div>
        <div className='partnersLogos'>
-        <img src="/assets/partners/06.png" alt="partners" />
-        <img src="/assets/partners/07.png" alt="partners" />
-        <img src="/assets/partners/08.png" alt="partners" />
-        <img src="/assets/partners/09.png" alt="partners" />
-        <img src="/assets/partners/010.png" alt="partners" />
+        <img src="/assets/partners/partners/06.png" alt="partners" />
+        <img src="/assets/partners/partners/07.png" alt="partners" />
+        <img src="/assets/partners/partners/08.png" alt="partners" />
+        <img src="/assets/partners/partners/09.png" alt="partners" />
+        <img src="/assets/partners/partners/010.png" alt="partners" />
+        
        </div>
       <motion.div initial={{ opacity: 0, scale: 0.5 }}
     animate={{ opacity: 1, scale: 1 }}

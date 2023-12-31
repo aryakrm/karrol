@@ -19,6 +19,8 @@ function Hakkimizda() {
       <img  className='karrolLogo' src="/assets/karrolLogo.png" alt="Karrol Logo" />
         <h1>{t("hakkimizda_title")}</h1>
       <p>{t("hakkimizda_text")}</p>
+      <br />
+      <p>{t("hakkimizda_text2")}</p>
 </motion.div>
       
     </section>
