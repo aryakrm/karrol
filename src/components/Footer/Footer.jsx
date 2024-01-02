@@ -28,7 +28,7 @@ function Footer() {
         </ul>
       </div>
         <div className='footerContact' >
-          <h3>KARROL OTOMOTİV TİC. LTD. ŞTİ. <br /> {t("iletisim")}</h3>
+          <h3>{t("limited-sirketi")} <br /> {t("iletisim")}</h3>
           <p>Tel: +90 312 511 92 11 <br />
                E-Mail: info@karrol.com.tr</p>
                <img src="/assets/karrolLogo.png" alt="Karrol Logo" />
@@ -37,7 +37,7 @@ function Footer() {
       <div className='footerInfo' >
         <h3>{t("calisma")}</h3>
         <p>{t("haftaici-day")} <br /> {t("haftaici-hours")} <br />
-        {t("cumartesi")} <br /> {t("haftaici-hours")} <br />
+        {t("cumartesi")} <br /> {t("cumartesi-hours")} <br />
         {t("pazar")} </p>
       </div>
       
