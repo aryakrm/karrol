@@ -1,24 +1,50 @@
+/* LoadingPage.css */
 .Loading {
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #061022;
+  .logo-container {
     display: flex;
-    align-items: center;
     justify-content: center;
-    z-index: 1000;
-    padding: 10%;
-    img{
-        width: 17%;
-        animation: rotate 5s linear infinite;
+    align-items: center;
+    $animation-delay: 0.1s; // Adjust the delay between each letter
+
+    .k,
+    .a,
+    .rr,
+    .o,
+    .l {
+      opacity: 0;
+      animation: draw 0.5s forwards;
+    }
+
+    .k {
+      animation-delay: $animation-delay * 1;
+    }
+
+    .a {
+      animation-delay: $animation-delay * 2;
+    }
+
+    .rr {
+      animation-delay: $animation-delay * 3;
+    }
+
+    .o {
+      animation-delay: $animation-delay * 4;
+    }
+
+    .l {
+      animation-delay: $animation-delay * 5;
     }
   }
-  
+}
 
-  @keyframes rotate {
-    0%{
-       transform: rotate(0deg);
-      }
-   100%{
-       transform: rotate(360deg);
-      }
-   }
+@keyframes draw {
+  to {
+    opacity: 1;
+  }
+}

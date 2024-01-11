@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import './App.css';
+import "./App.css";
 import Layout from "./components/Layout/Layout.jsx";
-import { Cursor } from 'react-creative-cursor';
-import 'react-creative-cursor/dist/styles.css';
-import ScrollToTop from './components/ScrollToTop/ScrollToTop.js';
+import { Cursor } from "react-creative-cursor";
+import "react-creative-cursor/dist/styles.css";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop.js";
 import Loading from "./pages/Loading/Loading.jsx";
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
     // Simulate a 3-second loading time
     const timeoutId = setTimeout(() => {
       setLoading(false);
-    }, 3000);
+    }, 1500);
 
     return () => {
       // Cleanup the timeout to avoid potential memory leaks
@@ -24,10 +24,15 @@ function App() {
   return (
     <div className="App">
       {loading ? (
-        <Loading/>
+        <Loading />
       ) : (
         <>
-          <Cursor isGelly={true} cursorSize={20} cursorBackgrounColor="#f3c623" exclusionBackgroundColor="#10316b" />
+          <Cursor
+            isGelly={true}
+            cursorSize={20}
+            cursorBackgrounColor="#f3c623"
+            exclusionBackgroundColor="#10316b"
+          />
           <Layout />
           <ScrollToTop />
         </>
