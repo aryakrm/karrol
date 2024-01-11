@@ -10,6 +10,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 2rem;
     $animation-delay: 0.1s; // Adjust the delay between each letter
 
     .k,
@@ -17,6 +18,7 @@
     .rr,
     .o,
     .l {
+      width: 20%;
       opacity: 0;
       animation: draw 0.5s forwards;
     }
