@@ -1,0 +1,70 @@
+.Depo {
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .MuiBox-root {
+    width: 100%;
+    padding: 1rem;
+    height: unset !important;
+    min-height: unset !important;
+    img {
+      -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+      filter: grayscale(100%);
+      &:hover {
+        filter: none;
+      }
+      transition: 0.2s linear;
+    }
+  }
+  .css-uhw9jr {
+    height: unset !important;
+    min-height: unset !important;
+  }
+  p {
+    width: 80%;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    // gap: 1rem;
+    background-color: rgba(6, 16, 34, 0.3);
+    padding: 1rem;
+    border-radius: 20px;
+    svg {
+      font-size: 5rem;
+      fill: #061022;
+      animation-name: floatIt;
+      animation-iteration-count: infinite;
+      animation-duration: 9000ms;
+      animation-timing-function: linear;
+      animation-direction: alternate;
+    }
+    span {
+      font-weight: 500;
+      margin-bottom: 1px;
+    }
+    .depo_head {
+      font-weight: 700;
+    }
+  }
+}
+
+@keyframes floatIt {
+  0% {
+    translate: 0 0;
+  }
+
+  50% {
+    translate: 5% 5%;
+  }
+
+  100% {
+    translate: 0 0;
+  }
+}
