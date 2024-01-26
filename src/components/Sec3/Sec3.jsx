@@ -22,7 +22,7 @@ function Sec3() {
     autoplay: true,
     autoplaySpeed: 1500,
     slidesToShow: 8,
-    slidesToScroll: 1,
+    slidesToScroll: 4,
   };
 
   const el = useRef();

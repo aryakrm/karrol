@@ -25,7 +25,6 @@ function AfterMarketler() {
         <img src="/assets/partners/011.png" alt="partners" />
         <img src="/assets/partners/012.png" alt="partners" />
         <img src="/assets/partners/013.png" alt="partners" />
-        <img src="/assets/partners/014.png" alt="partners" />
         <img src="/assets/partners/015.png" alt="partners" />
         <img src="/assets/partners/016.png" alt="partners" />
         <img src="/assets/partners/017.png" alt="partners" />
