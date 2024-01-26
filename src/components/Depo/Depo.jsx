@@ -2,7 +2,7 @@ import React from "react";
 import "./Depo.scss";
 import Box from "@mui/material/Box";
 import Masonry from "@mui/lab/Masonry";
-import { LuContainer } from "react-icons/lu";
+import { TbBuildingWarehouse } from "react-icons/tb";
 // import { t } from "i18next";
 import { useTranslation } from "react-i18next";
 
@@ -11,8 +11,24 @@ function Depo() {
 
   return (
     <section className="Depo">
-      <p>
-        <LuContainer />
+      <p className="depo-title">
+        {" "}
+        <TbBuildingWarehouse />
+        {t("depo_sub")} <br />
+        <span style={{ marginTop: "1rem" }} className="depo_head">
+          {t("depo_explore")}
+        </span>
+      </p>
+      <Box sx={{ width: 300, minHeight: 629 }}>
+        <Masonry columns={3} spacing={3} c>
+          <img src="/assets/depo01.jpg" alt="" />
+          <img src="/assets/depo02.jpg" alt="" />
+          <img src="/assets/depo03.jpg" alt="" />
+          <img src="/assets/depo04.jpg" alt="" />
+          <img src="/assets/depo05.jpg" alt="" />
+        </Masonry>
+      </Box>
+      <p className="depo-main">
         <span>{t("depo_main")}</span> <br />{" "}
         <span className="depo_head">{t("depo_key")}</span> <br />{" "}
         <span className="depo_head">{t("depo1_title")}</span> <br />
@@ -28,35 +44,8 @@ function Depo() {
         <span className="depo_head">{t("depo6_title")}</span> <br />{" "}
         <span>{t("depo6_text")}</span> <br />{" "}
         <span className="depo_head">{t("depo7_title")}</span> <br />{" "}
-        <span>{t("depo7_text")}</span> <br />{" "}
-        <span className="depo_head">{t("depo_explore")}</span> <br />
+        <span>{t("depo7_text")}</span> <br /> <br />
       </p>
-      <Box sx={{ width: 500, minHeight: 829 }}>
-        <Masonry columns={3} spacing={1} c>
-          {/* {imageData.map(({ src, id }) => (
-          <div key={id}>
-            <img
-              src={`${src}?w=162&auto=format`}
-              srcSet={`${src}?w=162&auto=format&dpr=2 2x`}
-              alt={id}
-              loading="lazy"
-              style={{
-                borderBottomLeftRadius: 4,
-                borderBottomRightRadius: 4,
-                display: "block",
-                width: "100%",
-              }}
-            />
-          </div>
-        ))} */}
-          <img src="/assets/depo01.jpg" alt="" />
-          <img src="/assets/depo02.jpg" alt="" />
-          <img src="/assets/depo03.jpg" alt="" />
-          <img src="/assets/depo04.jpg" alt="" />
-          <img src="/assets/depo05.jpg" alt="" />
-        </Masonry>
-      </Box>
-      <p>{t("depo_sub")}</p>
     </section>
   );
 }

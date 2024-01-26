@@ -25,32 +25,47 @@
     height: unset !important;
     min-height: unset !important;
   }
+  .depo-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
   p {
     width: 80%;
     font-weight: 500;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     // gap: 1rem;
     background-color: rgba(6, 16, 34, 0.3);
     padding: 1rem;
     border-radius: 20px;
     svg {
       font-size: 5rem;
-      fill: #061022;
+
       animation-name: floatIt;
       animation-iteration-count: infinite;
       animation-duration: 9000ms;
       animation-timing-function: linear;
       animation-direction: alternate;
+      margin: 1rem;
     }
     span {
       font-weight: 500;
       margin-bottom: 1px;
+      text-align: left;
     }
     .depo_head {
       font-weight: 700;
+      text-align: left;
+    }
+    .depo-main {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      text-align: left;
     }
   }
 }
