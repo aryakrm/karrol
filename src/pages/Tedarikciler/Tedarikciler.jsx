@@ -11,7 +11,7 @@ function Tedarikciler() {
     <section className="AnaMarkalar">
       <div className="mainLogos">
         <img src="/assets/peugeot2.png" alt="logo" />
-        <img src="/assets/opel2.png" alt="logo" />
+        <img style={{ width: "12%" }} src="/assets/opel2.png" alt="logo" />
         <img src="/assets/citroen2.png" alt="logo" />
         <img src="/assets/renault2.png" alt="logo" />
       </div>
