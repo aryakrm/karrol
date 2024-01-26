@@ -9,6 +9,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Hr from "../../components/Hr/Hr";
 import Depo from "../../components/Depo/Depo";
+import Cp from "../../components/Cp/Cp";
 gsap.registerPlugin(ScrollTrigger);
 
 function Home() {
@@ -36,6 +37,7 @@ function Home() {
         <Sec1 />
         <Sec2 />
         <Sec3 />
+        <Cp />
         <Depo />
         <Hr />
       </div>

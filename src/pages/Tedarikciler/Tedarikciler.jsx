@@ -9,12 +9,6 @@ function Tedarikciler() {
 
   return (
     <section className="AnaMarkalar">
-      <div className="mainLogos">
-        <img src="/assets/peugeot2.png" alt="logo" />
-        <img style={{ width: "12%" }} src="/assets/opel2.png" alt="logo" />
-        <img src="/assets/citroen2.png" alt="logo" />
-        <img src="/assets/renault2.png" alt="logo" />
-      </div>
       <motion.div
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
@@ -24,6 +18,12 @@ function Tedarikciler() {
         <h1>{t("anamarkalar_title")}</h1>
         <p>{t("anamarkalar_text")}</p>
       </motion.div>
+      <div className="mainLogos">
+        <img src="/assets/peugeot2.png" alt="logo" />
+        <img style={{ width: "12%" }} src="/assets/opel2.png" alt="logo" />
+        <img src="/assets/citroen2.png" alt="logo" />
+        <img src="/assets/renault2.png" alt="logo" />
+      </div>
     </section>
   );
 }

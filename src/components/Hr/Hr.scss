@@ -1,14 +1,15 @@
 .Hr {
-  width: 100%;
-  padding: 15rem 5rem;
+  width: 130%;
+  overflow: hidden;
+  padding: 15rem 0;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   background-image: url("../../../public/assets/hr.png");
   background-repeat: no-repeat;
-  margin-left: 40%;
+  margin-left: 80%;
   .hr_text {
-    width: 80%;
+    width: 80rem;
     margin-right: 70%;
     display: flex;
     flex-direction: column;
@@ -30,13 +31,13 @@
 
 @media only screen and (max-width: 920px) {
   .Hr {
-    width: 100%;
+    width: 120%;
     background-size: auto;
     padding: 1rem;
     .hr_text {
       width: 100%;
       margin-left: 1rem;
-      margin-right: 40%;
+      margin-right: 80%;
     }
   }
 }

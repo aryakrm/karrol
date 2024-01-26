@@ -9,6 +9,15 @@ function AfterMarketler() {
 
   return (
     <section className="AfterMarketler">
+      <motion.div
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.5 }}
+        className="afterText"
+      >
+        <h1>{t("aftermarketler_title")}</h1>
+        <p>{t("aftermarketler_text")}</p>
+      </motion.div>
       <div className="partnersLogos">
         <img src="/assets/partners/partners/01.gif" alt="partners" />
         <img src="/assets/partners/partners/02.png" alt="partners" />
@@ -33,15 +42,6 @@ function AfterMarketler() {
         <img src="/assets/partners/020.png" alt="partners" />
         <img src="/assets/partners/021.jpg" alt="partners" />
       </div>
-      <motion.div
-        initial={{ opacity: 0, scale: 0.5 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 0.5 }}
-        className="afterText"
-      >
-        <h1>{t("aftermarketler_title")}</h1>
-        <p>{t("aftermarketler_text")}</p>
-      </motion.div>
     </section>
   );
 }

@@ -29,11 +29,10 @@ function Iletisim() {
           <p>Mail: info@karrol.net</p>
           <h2>{t("ticaret")}</h2>
           <p>
-            ADRES: İlkbahar Mah. Doğukent Cad. Reneza Plaza No:739/83
-            ÇANKAYA/ANKARA/TÜRKİYE
+            Address: İlkbahar Mah. Galip Erdem Cad. Sinpaş Altınoran Sitesi.
+            Kule 1923. No: 48 Çankaya Ankara Türkiye
           </p>
           <p>Telefon: +90 312 511 92 11</p>
-          <p>Cep: +90 531 300 22 71</p>
           <p>Mail: info@karrol.net</p>
         </div>
       </div>
