@@ -41,7 +41,7 @@
   fill: white;
 }
 .Sec3 .Sec3-wrapper .partnerLogos {
-  width: 100%;
+  width: 80%;
 }
 .Sec3 .Sec3-wrapper .partnerLogos .slick-slider {
   width: 100%;
@@ -51,6 +51,9 @@
 }
 .Sec3 .Sec3-wrapper .partnerLogos .slick-slider div {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .Sec3 .Sec3-wrapper .partnerLogos .slick-slider div .LazyLoad {
   width: 100%;
@@ -62,6 +65,9 @@
   color: #091a36;
   border-radius: 1rem;
   text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  font-style: italic;
 }
 
 @keyframes rotate {

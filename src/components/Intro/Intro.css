@@ -7,11 +7,13 @@
 .Intro video {
   width: 100%;
 }
-.Intro h1 {
+.Intro .intro_text {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.Intro .intro_text h1 {
   font-size: 3rem;
   color: #fff;
   text-align: center;
@@ -25,7 +27,7 @@
   border-radius: 60px;
   position: absolute;
   z-index: 11;
-  left: 45%;
+  left: 48%;
   margin-top: -20%;
 }
 .Intro .mouse::before {
@@ -50,8 +52,18 @@
   }
 }
 @media only screen and (max-width: 920px) {
-  .Intro h1 {
+  .Intro .intro_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .Intro .intro_text h1 {
     font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    font-weight: 800;
+    font-style: Italic;
   }
   .Intro .mouse {
     margin-top: -15%;

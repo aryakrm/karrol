@@ -32,6 +32,16 @@ nav .navMenu .menu {
   align-items: center;
   gap: 1rem;
 }
+nav .navMenu .menu .flags {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+nav .navMenu .menu .flags span:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
 nav .navMenu a {
   color: white;
   text-decoration: none;
@@ -78,7 +88,7 @@ nav .side-menu .side-menu-list li a {
   color: white;
   font-weight: 800;
 }
-nav .side-menu .side-menu-list li:hover {
+nav .side-menu .side-menu-list li a:hover {
   color: #f3c623;
   cursor: pointer;
 }
@@ -86,15 +96,26 @@ nav .side-menu .side-menu-list li p:hover {
   opacity: 0.5;
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
+nav .side-menu .side-menu-list .flags {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+nav .side-menu .side-menu-list .flags span:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
 nav .dropDownMenu {
   position: absolute;
   z-index: 10;
-  right: 15%;
-  top: 65%;
+  right: 17%;
+  top: 60%;
   color: white;
   background-color: #061022;
-  padding: 1rem;
+  padding: 1rem 3rem;
   text-align: center;
+  border-radius: 20px;
 }
 nav .dropDownMenu li {
   margin: 1rem;

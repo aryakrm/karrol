@@ -1,0 +1,45 @@
+/* LoadingPage.css */
+.Loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #061022;
+}
+.Loading .logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.Loading .logo-container .k,
+.Loading .logo-container .a,
+.Loading .logo-container .rr,
+.Loading .logo-container .o,
+.Loading .logo-container .l {
+  width: 20%;
+  opacity: 0;
+  animation: draw 0.5s forwards;
+}
+.Loading .logo-container .k {
+  animation-delay: 0.1s;
+}
+.Loading .logo-container .a {
+  animation-delay: 0.2s;
+}
+.Loading .logo-container .rr {
+  animation-delay: 0.3s;
+}
+.Loading .logo-container .o {
+  animation-delay: 0.4s;
+}
+.Loading .logo-container .l {
+  animation-delay: 0.5s;
+}
+
+@keyframes draw {
+  to {
+    opacity: 1;
+  }
+}/*# sourceMappingURL=Loading.css.map */

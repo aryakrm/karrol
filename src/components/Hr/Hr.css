@@ -1,0 +1,39 @@
+.Hr {
+  width: 100%;
+  padding: 15rem 5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: url("../../../public/assets/hr.png");
+  background-repeat: no-repeat;
+}
+.Hr .hr_text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  background-color: rgba(9, 26, 54, 0.3);
+  border-radius: 20px;
+}
+.Hr .hr_text h2 {
+  margin-bottom: 1rem;
+}
+.Hr .hr_text p {
+  font-weight: 600;
+  line-height: 2rem;
+}
+
+@media only screen and (max-width: 920px) {
+  .Hr {
+    width: 100%;
+    background-size: auto;
+    padding: 1rem;
+  }
+  .Hr .hr_text {
+    width: 100%;
+    margin-left: 1rem;
+  }
+}/*# sourceMappingURL=Hr.css.map */

@@ -60,4 +60,12 @@
   100% {
     translate: 0 0;
   }
+}
+@media only screen and (max-width: 920px) {
+  .Sec1 div {
+    margin-top: 3.5rem;
+  }
+  .Sec1 div img {
+    width: 5rem;
+  }
 }/*# sourceMappingURL=Sec1.css.map */
