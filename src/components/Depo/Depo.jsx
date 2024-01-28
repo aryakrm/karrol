@@ -15,7 +15,10 @@ function Depo() {
         {" "}
         <TbBuildingWarehouse />
         {t("depo_sub")} <br />
-        <span style={{ marginTop: "1rem" }} className="depo_head">
+        <span
+          style={{ marginTop: "1rem", fontSize: "1.5rem" }}
+          className="depo_head"
+        >
           {t("depo_explore")}
         </span>
       </p>
