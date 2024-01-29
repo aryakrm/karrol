@@ -9,8 +9,8 @@
   background-repeat: no-repeat;
   margin-left: 80%;
   .hr_text {
-    width: 80rem;
-    margin-right: 70%;
+    width: 120rem;
+    margin-right: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,13 +31,13 @@
 
 @media only screen and (max-width: 920px) {
   .Hr {
-    width: 120%;
+    width: 140%;
     background-size: auto;
     padding: 1rem;
     .hr_text {
       width: 100%;
       margin-left: 1rem;
-      margin-right: 80%;
+      margin-right: 60%;
     }
   }
 }
