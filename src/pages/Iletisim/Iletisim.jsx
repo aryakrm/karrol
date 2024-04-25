@@ -16,7 +16,7 @@ function Iletisim() {
           transition={{ duration: 0.5 }}
           title="map"
           className="location"
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6125.403088803639!2d32.853549!3d39.858521!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d34543b288d24d%3A0x79f06278fab40a27!2sRENAZA!5e0!3m2!1str!2str!4v1702408699682!5m2!1str!2str"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3063.1757016312217!2d32.852663676510026!3d39.84789539006344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d345001f1eba5f%3A0x5cecac1c9117f284!2zU2lucGHFnyBBbHTEsW5vcmFu!5e0!3m2!1sen!2s!4v1714059236121!5m2!1sen!2s
           width="600"
           height="450"
           style={{ border: "0" }}
